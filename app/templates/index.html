@@ -2,9 +2,45 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Sistema de Controle Financeiro</title>
+    <title>Controle Financeiro</title>
+    <style>
+        html, body {
+            background-color: #29272D;
+            height: 100%;
+            margin: 0;
+            color: #FFFFFF; /* Adiciona cor branca ao texto para contraste */
+            width: 100%;
+            min-width: 1440px;
+            min-height: 1024px;
+        }
+        header {
+            background-color: #EEECDF;
+            width: 1440px;
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            z-index: 1; /* Garante que o cabeçalho fique atrás do texto */
+        }
+        header img {
+            height: 50px;
+        }
+        header h1 {
+            color: #29272D;
+            margin: 0;
+            padding-left: 100px;
+            flex: 1; /* Garante que o texto fique justificado à esquerda */
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem-vindo ao Sistema de Controle Financeiro!</h1>
+    <header>
+        <img src="app/static/images/logo_1.png" alt="Logo">
+        <h1>Bem-vindo ao Sistema de Controle Financeiro!</h1>
+    </header>
 </body>
 </html>
